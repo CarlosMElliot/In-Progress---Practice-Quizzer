@@ -5,26 +5,7 @@
 **Live site:** https://carlosmelliot.github.io/In-Progress-Practice-Quizzer/
 **Repository:** https://github.com/CarlosMElliot/In-Progress-Practice-Quizzer
 
-<<<<<<< HEAD
----
-
-## Table of contents
-
-1. [What this app does](#what-this-app-does)
-2. [Tech stack](#tech-stack)
-3. [Run locally](#run-locally)
-4. [Deployment guide — mental model](#deployment-guide--mental-model)
-5. [First-time setup, step by step](#first-time-setup-step-by-step)
-6. [Understanding `deploy.yml`](#understanding-deployyml)
-7. [Enabling GitHub Pages](#enabling-github-pages)
-8. [Everyday update workflow](#everyday-update-workflow)
-9. [Mistakes made on this project (and fixes)](#mistakes-made-on-this-project-and-fixes)
-10. [Reference tables](#reference-tables)
-11. [Checklists](#checklists)
-12. [Final takeaway](#final-takeaway)
-=======
 **Live site:** https://carlosmelliot.github.io/In-Progress-Practice-Quizzer/
->>>>>>> cd8075a66cc7011f11c829335eac6e769b6ca324
 
 ---
 
@@ -86,7 +67,6 @@ Output goes to `dist/` — a static, deployable single-page app.
 
 This section is a reusable, end-to-end workflow for taking a Bun + Vite/React project from VS Code all the way to a live GitHub Pages site, and for publishing every future update automatically.
 
-<<<<<<< HEAD
 ```
 VS Code project
     ↓
@@ -107,16 +87,6 @@ dist/
 GitHub Pages
     ↓
 Live website
-=======
-**Repo:** https://carlosmelliot.github.io/In-Progress-Practice-Quizzer/
-
-### 1. Set the base path in `vite.config.ts`
-
-GitHub Pages serves project sites from a subpath (`username.github.io/repo-name/`), so Vite needed to know that:
-
-```ts
- base: 'In-Progress-Practice-Quizzer',
->>>>>>> cd8075a66cc7011f11c829335eac6e769b6ca324
 ```
 
 Two files are especially important:
@@ -395,13 +365,7 @@ deploy  ✓
 https://carlosmelliot.github.io/In-Progress-Practice-Quizzer/
 ```
 
-<<<<<<< HEAD
 The repo name appears in the URL because this is a **project** Pages site, not a username root site.
-=======
-**https://carlosmelliot.github.io/In-Progress-Practice-Quizzer/**
-
-Every future push to `main` rebuilds and redeploys automatically.
->>>>>>> cd8075a66cc7011f11c829335eac6e769b6ca324
 
 ---
 

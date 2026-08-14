@@ -65,7 +65,7 @@ Output goes to `dist/` — a static, deployable single-page app.
 
 This project uses Vite + React + TypeScript, so the raw source can't be hosted directly — it needs to be built into static HTML/CSS/JS first. That build was automated with GitHub Actions so every push to `main` deploys automatically.
 
-**Repo:** https://github.com/CarlosMElliot/In-Progress---Practice-Quizzer
+**Repo:** https://carlosmelliot.github.io/In-Progress-Practice-Quizzer/
 
 ### 1. Set the base path in `vite.config.ts`
 
@@ -156,7 +156,7 @@ In **Settings → Pages → Build and deployment → Source**, selected **"GitHu
 
 Once `deploy.yml` completed successfully, the app went live at:
 
-**https://carlosmelliot.github.io/In-Progress---Practice-Quizzer/**
+**https://carlosmelliot.github.io/In-Progress-Practice-Quizzer/**
 
 Every future push to `main` rebuilds and redeploys automatically.
 

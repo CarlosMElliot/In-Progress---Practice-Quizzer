@@ -72,7 +72,7 @@ This project uses Vite + React + TypeScript, so the raw source can't be hosted d
 GitHub Pages serves project sites from a subpath (`username.github.io/repo-name/`), so Vite needed to know that:
 
 ```ts
-base: '/In-Progress---Practice-Quizzer/',
+ base: 'In-Progress-Practice-Quizzer',
 ```
 
 ### 2. Added a GitHub Actions workflow

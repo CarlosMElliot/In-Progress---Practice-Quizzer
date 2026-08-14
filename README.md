@@ -3,7 +3,7 @@
 **Version:** 2.4.0 | **Institution:** ERC Academy / English Resource Center
 **Architecture:** Single-Page Application (React 18 + Vite + TypeScript)
 
-**Live site:** https://carlosmelliot.github.io/In-Progress---Practice-Quizzer/
+**Live site:** [https://carlosmelliotc.github.io/In-Progress---Practice-Quizzer/](https://carlosmelliot.github.io/In-Progress-Practice-Quizzer/)
 
 ---
 
